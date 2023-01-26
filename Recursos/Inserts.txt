@@ -1,0 +1,64 @@
+Link Drive
+
+	
+https://drive.google.com/drive/u/1/folders/1BFUHgDmyOAov2I4LLvz8RTSHVNFc2hu3
+
+
+Guardar Producto
+
+http://localhost:8989/crearproducto
+
+{
+	"descripcion": "Blaco con verde",
+	"precio": 1.50,
+	"cantidad": 100
+}
+
+{
+	"descripcion": "Vidrio de 5cm",
+	"precio": 10,
+	"cantidad": 10
+}
+
+{
+	"descripcion": "Bolsas de plástico",
+	"precio": 1.90,
+	"cantidad": 70
+}
+
+{
+	"descripcion": "Madera de roble",
+	"precio": 20,
+	"cantidad": 80
+}
+
+{
+	"descripcion": "Carne Grande",
+	"precio": 2.00,
+	"cantidad": 50
+}
+
+Listar Producto
+
+http://localhost:8989/listarproducto
+
+Buscar Producto
+
+http://localhost:8989/buscarproducto/2
+
+Actualizar Producto
+
+http://localhost:8989/actualizarproducto/2
+
+{
+	"descripcion": "Blanco con cafe",
+	"precio": 1.50,
+	"cantidad": 100
+}
+
+Eliminar Producto
+
+http://localhost:8989/eliminarproducto/2
+
+
+
